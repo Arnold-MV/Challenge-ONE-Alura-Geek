@@ -1,0 +1,38 @@
+.main__titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.main__btn {
+    color: var(--color-btn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.bx-right-arrow-alt {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+    .main__btn {
+        gap: 0.2rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .main__title {
+        font-size: 2rem;
+    }
+}

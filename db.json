@@ -1,0 +1,127 @@
+{
+  "usuario": [
+    {
+      "name": "admin",
+      "email": "admin@admin.com",
+      "password": "12345",
+      "id": "1"
+    }
+  ],
+
+  "starWars": [
+    {
+      "name": "Taza Darth Vader",
+      "img": "..\\assets\\img\\starWars\\ddarth-vader-blanco.png",
+      "precie": " 60,00",
+      "id": 1
+    },
+    {
+      "name": "Cabeza de Darth Vader",
+      "img": "..\\assets\\img\\starWars\\starwars-2.png",
+      "precie": " 60,00",
+      "id": 2
+    },
+    {
+      "name": "Yoda",
+      "img": "..\\assets\\img\\starWars\\starwars-3.png",
+      "precie": " 60,00",
+      "id": 3
+    },
+    {
+      "name": "Stormtroopers",
+      "img": "..\\assets\\img\\starWars\\starwars-4.png",
+      "precie": " 60,00",
+      "id": 4
+    },
+    {
+      "name": "Yoda Bebé",
+      "img": "..\\assets\\img\\starWars\\starwars-5.png",
+      "precie": " 60,00",
+      "id": 5
+    },
+    {
+      "name": "Kylo Ren",
+      "img": "..\\assets\\img\\starWars\\starwars-6.png",
+      "precie": " 60,00",
+      "id": 6
+    }
+  ],
+
+  "consola": [
+    {
+      "name": "Mando de Xbox",
+      "img": "..\\assets\\img\\consolas\\consola-1.png",
+      "precie": "60,00",
+      "id": 1
+    },
+    {
+      "name": "playstation 5",
+      "img": "..\\assets\\img\\consolas\\consola-2.png",
+      "precie": "60,00",
+      "id": 2
+    },
+    {
+      "name": "Nintendo NES",
+      "img": "..\\assets\\img\\consolas\\consola-3.png",
+      "precie": "60,00",
+      "id": 3
+    },
+    {
+      "name": "joy-con de Nintendo Switch",
+      "img": "..\\assets\\img\\consolas\\consola-4.png",
+      "precie": "60,00",
+      "id": 4
+    },
+    {
+      "name": "Xbox series x",
+      "img": "..\\assets\\img\\consolas\\consola-5.png",
+      "precie": "60,00",
+      "id": 5
+    },
+    {
+      "name": "Game Boy",
+      "img": "..\\assets\\img\\consolas\\consola-6.png",
+      "precie": "60,00",
+      "id": 6
+    }
+  ],
+
+  "diversos": [
+    {
+      "name": "Camisa Atari",
+      "img": "..\\assets\\img\\diversos\\diversos-1.png",
+      "precie": "60,00",
+      "id": 1
+    },
+    {
+      "name": "Camisa SNES",
+      "img": "..\\assets\\img\\diversos\\diversos-2.png",
+      "precie": "60,00",
+      "id": 2
+    },
+    {
+      "name": "Muñeco de Sonic",
+      "img": "..\\assets\\img\\diversos\\diversos-3.png",
+      "precie": "60,00",
+      "id": 3
+    },
+    {
+      "name": "Radio Retro",
+      "img": "..\\assets\\img\\diversos\\diversos-4.png",
+      "precie": "60,00",
+      "id": 4
+    },
+    {
+      "name": "Playstation VR",
+      "img": "..\\assets\\img\\diversos\\diversos-5.png",
+      "precie": "60,00",
+      "id": 5
+    },
+    {
+      "name": "Peluche de Pikachu",
+      "img": "..\\assets\\img\\diversos\\diversos-6.png",
+      "precie": "60,00",
+      "id": 6
+    }
+  ]
+}

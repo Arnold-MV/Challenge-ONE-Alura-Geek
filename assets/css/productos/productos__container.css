@@ -1,0 +1,27 @@
+.productos__title {
+  font-size: 1.3rem;
+}
+
+.productos__input {
+  width: 100%;
+}
+
+.productos__form {
+  width: 328px;
+}
+
+@media screen and (min-width: 768px) {
+  .productos__form {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .productos__title {
+    font-size: 2rem;
+  }
+
+  .productos__form {
+    width: 559px;
+  }
+}

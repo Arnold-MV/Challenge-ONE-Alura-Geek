@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Alura Geek</title>
+	<link rel="shortcut icon" href="../assets/img/logoicon.svg" type="image/x-icon">
+	<link rel="stylesheet" href="../assets/css/reset.css">
+	<link rel="stylesheet" href="../assets/css/styles.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!-- HERO -->
+	<link rel="stylesheet" href="../assets/css/hero/hero.css">
+	<link rel="stylesheet" href="../assets/css/hero/hero__container.css">
+	<link rel="stylesheet" href="../assets/css/hero/hero__section/hero__section.css">
+	<!-- MAIN -->
+	<link rel="stylesheet" href="../assets/css/main/main.css">
+	<link rel="stylesheet" href="../assets/css/main/main__section.css">
+	<link rel="stylesheet" href="../assets/css/main/main__titles/main__titles.css">
+	<link rel="stylesheet" href="../assets/css/main/main__container/main__container.css">
+	<link rel="stylesheet" href="../assets/css/main/main__container/main__card/main__card.css">
+	<link rel="stylesheet" href="../assets/css/main/main__container/main__info/main__info.css">
+	<!-- FOOTER -->
+	<link rel="stylesheet" href="../assets/css/footer/footer.css">
+	<link rel="stylesheet" href="../assets/css/footer/footer__container/footer__container.css">
+	<link rel="stylesheet" href="../assets/css/footer/footer__contactos/footer__contactos.css">
+	<link rel="stylesheet" href="../assets/css/footer/footer__form/footer__form.css">
+	<link rel="stylesheet" href="../assets/css/footer/footer__copy.css">
+
+	<script defer type="module" src="../assets/js/controllers/controller.js"></script>
+</head>
+
+<body>
+	<header class="hero">
+		<div class="hero__container">
+			<a href="../index.html"><img class="hero__logo" src="../assets/img/logo.svg" alt=""></a>
+			<nav class="hero__menu">
+				<form class="hero__busqueda" action="">
+					<input class="hero__buscar" type="text" placeholder="¿Qué deseas buscar?">
+					<button class="hero__btn"><i class='bx bx-search-alt-2'></i></button>
+				</form>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="main__section">
+			<div class="main__titles">
+				<h1 class="main__title">Todos los produtos</h1>
+				<a href="productos.html" class="footer__btn">Agregar producto</a>
+			</div>
+
+			<div class="main__container" data-Starwars>
+
+			</div>
+		</section>
+
+		<section id="consola" class="main__section main__section--js" id="content">
+
+			<div class="main__container" data-Consolas>
+
+			</div>
+		</section>
+
+		<section class="main__section main__section--js" id="content">
+
+			<div class=" main__container" data-diversos>
+
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__contactos">
+				<img src="../assets/img/logo.svg" alt="" class="footer__logo">
+				<div class="footer__info">
+					<nav class="footer__nav">
+						<ul class="footer__listas">
+							<li class="footer__li"><a href="#" class="footer__links">Quienes somos</a></li>
+							<li class="footer__li"><a href="#" class="footer__links">Política de privacidad</a></li>
+							<li class="footer__li"><a href="#" class="footer__links">Programa de fidelidad</a></li>
+							<li class="footer__li"><a href="#" class="footer__links">Nuestras tiendas</a></li>
+							<li class="footer__li"><a href="#" class="footer__links">Quiero ser franquiciado</a></li>
+							<li class="footer__li"><a href="#" class="footer__links">Anúncie aquí</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="footer__form">
+				<h2 class="footer__title">Hable con nosotros</h2>
+				<form class="footer__formulario" action="">
+					<input class="footer__input" type="text" placeholder="Nombre">
+					<textarea class="footer__input footer__input--texarea" placeholder="Escribe tu mensaje" name=""
+						id="" cols="30" rows="10"></textarea>
+					<button class=" footer__btn">Enviar mensaje</button>
+				</form>
+			</div>
+
+		</div>
+
+		<div class="footer__copy">
+			<span class="footer__desallador">Desarrollado por Arnold Martinez 2023</span>
+		</div>
+	</footer>
+</body>
+
+</html>

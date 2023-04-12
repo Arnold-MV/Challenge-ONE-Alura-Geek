@@ -1,0 +1,38 @@
+.main__login {
+    padding: 5rem 0;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login__formulario  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login__input {
+    width: 275px;
+    outline: none;
+}
+
+.login__btn {
+    width: 109px;
+}
+
+@media screen and (min-width: 1440px) {
+    .login__input {
+        width: 423px;
+    }
+
+    .login__btn {
+        width: 100%;
+    }
+}
